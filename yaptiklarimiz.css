@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dbdbdb;
+    }
+.header {
+    min-height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("stand-acma.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* top section */
+
+a.menu {
+    text-decoration: none;
+    color: white
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .fa {
+    display: none;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.nav-links ul li a.menu {
+    width: 230px;
+    height: 70px;
+}
+.nav-links ul h5:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5sn;
+}
+.nav-links ul h5:hover::after {
+    width: 100%;
+}
+.logo-link {
+    width: 100px;
+}
+.logo-metin {
+    text-decoration: none;
+    color: white;
+    padding: 18px 42px;
+    letter-spacing: 0.5px;
+}
+.logo-metin:hover {
+    color: red;
+}
+.logo-metin a {
+    width: 230px;
+    height: 70px;
+}
+h1.hakkimizda {
+    font-size: 36px;
+    font-weight: 600;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.course-col {
+    flex-basis: 31%;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 20px;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.course-col p {
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    font-weight: bold;
+}
+.course-col1 {
+    flex-basis: 31%;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 12px 20px;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.course-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: red;
+}
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.course-col1:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;   
+}
+.text-box {
+    width: 90%;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 30px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 22px;
+    color: #fff;
+}
+.logolar {
+    display: none;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* activities */
+.yaptiklarimiz {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.yaptiklarimiz-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.yaptiklarimiz-col a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.yaptiklarimiz-col a:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+        color: red;
+}
+.yaptiklarimiz-col a img {
+    width: 100%;
+    border-radius: 10px;
+}
+.yaptiklarimiz-col a img:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.yaptiklarimiz h3 {
+        font-size: 36px;
+        font-weight: 600;
+}
+.yaptiklarimiz-col h6 {
+    font-size: 15px;
+    color: red;
+}
+.yaptiklarimiz-col p.icerik-metni {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.yaptiklarimiz-col p.icerik-metni-2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.row2{
+    margin-top: 1px;
+}
+.yonetim h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.text-box p {
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* YONETIM KURULU */
+
+.yonetim-col {
+    flex-basis: 23%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.yonetim {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.yonetim-col h3 {
+    font-size: 36px;
+    font-weight: 600px;
+}
+.yonetim-col a img {
+width: 100%;
+border-radius: 10px;
+}
+.yonetim-col a img:hover {
+box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.yonetim-col a {
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+color: black;
+}
+.yonetim-col a:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    color: red;
+}
+.yonetim-col h6 {
+font-size: 15px;
+color: red;
+}
+.yonetim-col p.icerik-metni {
+font-size: 15px;
+font-weight: bold;
+text-align: center;
+}
+.yonetim-col p.icerik-metni-2 {
+font-size: 15px;
+font-weight: bold;
+color: black;
+text-align: center;
+}
+.text-box p {
+margin-top: 40px;
+font-weight: 400;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+}
+.alt-logolar {
+    font-size: 30px;
+}
+.text-box a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+/* mobile responsive */
+
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .logolar {
+        flex-direction: row;
+        color: black;
+        display: flex;
+        font-size: 40px;
+        padding: 50px;
+        padding-left: 10px;
+        margin: 20px;
+        align-items: center;
+        align-self: center;
+        padding-top: 20px;
+        padding-left: 0px !important;
+        text-align: center;
+    }
+    .logolar a {
+        flex-direction: row;
+        color: black;
+        display: flex;
+        font-size: 30px;
+        text-decoration: none;
+        align-items: center;
+        padding: 1px;
+        margin: 1px;
+        align-self: center;
+        padding-top: 40px;
+        padding-left: 0px !important;
+        text-align: center;
+    }
+    li#logolar {
+        flex-direction: row;
+        color: black;
+        display: flex;
+        font-size: 30px;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        padding: 1px;
+        margin: 1px;
+        align-self: center;
+        padding-top: 40px;
+        padding-left: 0 !important;
+        
+    }
+    .nav-links {
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul {
+        padding: 30px;
+
+    }
+}
